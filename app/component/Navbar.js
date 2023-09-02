@@ -153,7 +153,7 @@ const Navbar = () => {
         <motion.div animate={menu ? "open" : "closed"}
           variants={navbar}
           transition={{ duration: 0.5, delay: 0.9 }}
-          className="flex flex-col items-center justify-center absolute top-0 w-screen h-screen z-40 bg-texture">
+          className="flex flex-col items-center justify-center absolute top-0 w-screen h-screen bg-stone-950 z-40">
 
           <span onClick={() =>setMenu(false)} className="absolute top-8 right-8 text-slate-100 text-2xl cursor-pointer">&#10007;</span>
 

@@ -8,10 +8,12 @@ module.exports = {
   theme: {
     fontFamily: {
       'agdasima': ['Agdasima'],
-      'spacemono': ['Space Mono']
+      'spacemono': ['Space Mono'],
+      'chakra' :['Chakra Petch']
     },
     backgroundImage: {
       'texture': "url('/texture.png')",
+      'paper': "url('/paper.jpg')",
     }
   },
   
